@@ -1,0 +1,20 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main {
+    min-width: 550px;
+    width: 90%;
+    -background-color: rgb(195, 237, 255);
+    box-shadow: 20px;
+    box-shadow: inset;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+h1 {
+    -background-color: brown;
+    margin:0px;
+    font-size: 50px;
+}
