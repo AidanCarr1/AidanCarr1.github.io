@@ -1,20 +1,33 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
 }
 
 #main {
-    min-width: 550px;
-    width: 90%;
-    -background-color: rgb(195, 237, 255);
-    box-shadow: 20px;
-    box-shadow: inset;
+    min-width: 575px;
+    width: 70%;
+    -background-color: rgb(239, 250, 255);
+    box-shadow: 0px 0px 10px 2px rgb(149, 149, 149);
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 25px;
 }
 
 h1 {
     -background-color: brown;
     margin:0px;
     font-size: 50px;
+}
+
+#profile {
+    -width: 70%;
+    -min-width: 550px;
+    -background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
 }
