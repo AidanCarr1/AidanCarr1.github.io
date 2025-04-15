@@ -6,7 +6,7 @@ body {
 
 #main {
     min-width: 575px;
-    width: 70%;
+    width: 85%;
     -background-color: rgb(239, 250, 255);
     box-shadow: 0px 0px 10px 2px rgb(149, 149, 149);
     margin-left: auto;
@@ -30,4 +30,43 @@ h1 {
 
 ul {
     list-style-type: none;
+}
+
+/*links*/
+a:link {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: rgb(244, 244, 244);
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(44, 69, 255);
+    background-color: rgb(244, 244, 244);
+    text-decoration: none;
+  }
+
+.img-link {
+    -height: 50%;
+    width: 60%;
+}
+.center {   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-link:hover {
+    opacity: 80%;
+    box-shadow: 0px 0px 10px 2px rgb(149, 149, 149);
 }
