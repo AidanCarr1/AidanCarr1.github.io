@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <div id="main">
+        <div class="box">
             
             <div id="profile">
                 <div style="overflow: hidden;">
@@ -25,35 +25,39 @@
                     </div>
                 </div>
                     <p>
-                        Computer Science student at Marist. 
+                        Computer Science student at Marist University. 
                         Concentration in software development. 
                         Minor in mathematics. 
                         On campus tutor. 
                         Alpha Chi Honor Society. 
                         Ultimate Frisbee captain. 
                         3.889 GPA.
+                        Dean's List student.
                     </p>
                     <p>
-                        <!--Software developer with an interest in design, knowledge in object-oriented programming, and a desire for software craftsmanship.-->
+                        Software developer with experience in TypeScript, JavaScript, C++, Java, HTML, Python, SQL. 
+                        Interest in front-end design and user experience. 
+                        Knowledge in object-oriented programming, algorithms, and data structures. 
+                        Precise and thorough software craftsman.
                     </p>
             </div>
 
             <div id="links">
-                <h2>Links</h2>
-                <p>Here are some quick links to my most recent resume, my GitHub profile, and my LinkedIn account page.</p>
+                <h2 class="section-header">Quick Links</h2>
+                <!--<p>Here are some quick links to my most recent resume, my GitHub profile, and my LinkedIn account page.</p>-->
                 <div class="links-section">
-
-                    <div class="small-link-item">
-                        <a href="./resume.pdf" target="_blank" rel="noopener noreferrer">
-                            <img class="small-link-img" src="images/resume.png" alt="Resume">
-                            <p class="link-caption">Resume <em>(updated 3/31/2025)</em></p>
-                        </a>
-                    </div>
 
                     <div class="small-link-item">
                         <a href="https://github.com/AidanCarr1" target="_blank" rel="noopener noreferrer">
                             <img class="small-link-img" src="images/github.png" alt="GitHub">
                             <p class="link-caption">GitHub</em></p>
+                        </a>
+                    </div>
+
+                    <div class="small-link-item">
+                        <a href="./resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <img class="small-link-img" src="images/resume-screenshot.png" alt="Resume">
+                            <p class="link-caption">Resume <em>(updated 4/16/2025)</em></p>
                         </a>
                     </div>
 
@@ -68,10 +72,14 @@
 
                     
             </div>
+        </div>
 
+
+        <div class="box">
             <div id="projects">
-                <h2>Projects</h2>
-                <p>Check out some of my projects! Many of these were done at Marist University, with some personal projects too.</p>
+                <h2 class="section-header">My Projects</h2>
+                <!--<p>Check out some of my projects! Many of these were done at Marist University, with some personal projects too.</p>
+                <hr> -->
 
                 <div class="project">
 
@@ -107,6 +115,54 @@
                     </div>
                 </div>
                 <hr>
+
+
+                <div class="project">
+
+                    <div class="title-container">
+                        <h2 class="title">Dublin Blog</h2>
+                        <h3 class="date">Spring 2024</h3>
+                    </div>
+                        <h3 class="subtitle">Personal blog website from my semester abroad in Dublin, Ireland</h3>
+
+                    <p class="description">Published a blog website on GitHub pages for my family at home to read while I was away. 
+                        I kept a JSON file that contained all the text I wrote for each blog post, separating days, paragraphs, images, and certain custom repeated elements. 
+                        I configured elements with JavaScript like photo captions, music widgets, fun facts, and accessibility features. Using CSS to make these elements look unique.
+                        Using Google Photos, I was able to share an album with my family while also using the image URLS in the blog.
+                        The site has text accessibility features for my grandparents.
+                        
+                    </p>
+                    
+                    <div class="links-section">
+
+                        <div class="link-item">
+                            <a href="https://aidancarr1.github.io/Blog" target="_blank" rel="noopener noreferrer">
+                                <img class="link-img" src="images/guinness-truck.jpg" alt="Dublin Blog" >
+                                <p class="link-caption">Check out the Blog</p>
+                            </a>
+                        </div>
+                      
+                        <div class="link-item">
+                            <a href="https://github.com/AidanCarr1/Blog" target="_blank" rel="noopener noreferrer">
+                                <img class="link-img" src="images/blog-repository.png" alt="Blog Repository">
+                                <p class="link-caption">Repository</p>
+                            </a>
+                        </div>
+                      
+                    </div>
+
+                    <p class="description">
+                        While the blog posts quickly stop in early January, I worked on the site well into February, 
+                        attempting to get more elements functioning. 
+                        The next idea was to create an input page that could compile blog 
+                        entries into JSON files that the JavaScript could interpret.
+                    </p>
+                </div>
+                <hr>
+
+                <h2>More Links</h2>
+                <p>This site is still a work in progress. Here are more projects I have not made look pretty yet:</p>
+
                 <ul>
                     <li>
                         <a href="https://aidancarr1.github.io/SD330">System Design</a>
@@ -116,14 +172,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="https://aidancarr1.github.io/Blog">Dublin Blog</a>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/AidanCarr1/Blog">Repository</a>
-                            </li>
-                        </ul>
-                    </li>
+                    
                     <li>
                         <a href="https://aidancarr1.github.io/CMPT435">Algorithms</a>
                         <ul>
@@ -155,7 +204,7 @@
         
 
         <br><br>
-        <p style="text-align: center;">&copy; Aidan Carr April 17, 2025</p>
+        <p id="footer">&copy; Aidan Carr April 17, 2025 ~ Background photograph taken by Sam Lavitt</p>
     </body>
 
     <!--
