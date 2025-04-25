@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 13.5pt;
     padding: 10px;
 
     /*image*/
@@ -18,14 +19,15 @@ body {
     box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .50);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     padding: 30px 45px 30px 45px;
 }
 
 h1 {
     /*background-color: brown;*/
     margin:0px;
-    font-size: 55px;
+    /* font-size: 55px; */
+    font-size: 42pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -34,7 +36,8 @@ h1 {
     margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 30pt;
     text-align: center;
     margin-bottom: 10;
 }
@@ -83,7 +86,8 @@ a:active {
     /*background-color: orange;*/
     margin: 0;
     min-width: 440px;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 24pt;
     font-weight:bolder;
 }
 .subtitle {
@@ -91,7 +95,8 @@ a:active {
     margin: 0;
     font-weight:bold;
     color: rgb(50, 50, 50);
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 15pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .date {
@@ -103,7 +108,8 @@ a:active {
     text-align: right;
     /*font-weight: normal;
     color: rgb(50, 50, 50);*/
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 15pt;
 
 }
 
@@ -201,5 +207,6 @@ hr {
     box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .50);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
     padding: 10px 45px 10px 45px;
 }
