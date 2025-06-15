@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WATCH - 10 year old boy saves father from drowning</title>
+        <meta charset="UTF-8">
+        <!--<link rel="stylesheet" href="style.css" type="text/css" media="screen" />-->
+        <link rel="icon" type="image/x-icon" href="images/ac-fuzz.png">
+
+        
+    </head>
+
+    <body id="theBody" onload="changeIt()">
+        <h1>WATCH - 10 year old boy saves father from drowning</h1>
+        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-06/boys-save-drowning-mc-220628-06-3bf430.jpg">
+        <p>June 15, 2024</p>
+
+        <p>Omaha, Nebraska - What a scary site, a father loses his footing and falls into the pool, becoming unconsious.</p>
+
+        
+    </body>
+
+
+    <script>
+        function changeIt() {
+            document.getElementById("theBody").innerHTML= 
+            `<img src="https://pbs.twimg.com/media/ERJrt5oX0AcsGdE.jpg:large" width="800px">
+            <br><br><br><br><br><br>
+            <input type="button" onclick="copySite()" value="Copy news URL"></input>`;
+
+        }
+
+        function fakeSite() {
+            document.getElementById("theBody").innerHTML= `
+            <h1>WATCH - 10 year old boy saves father from drowning</h1>
+        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-06/boys-save-drowning-mc-220628-06-3bf430.jpg">
+        <p>June 15, 2024</p>
+
+        <p>Omaha, Nebreaska - What a scary site, a father loses his footing and falls into the pool, becoming unconsious.</p>
+
+        <button onclick="fakeSite"></button> `;
+
+        }
+        function copySite() {
+            //Copy code to clipboard
+            navigator.clipboard.writeText("https://aidancarr1.github.io/news.html");
+            alert("Copied site");
+            //Flash the copied text
+            // var element = document.getElementById("copied");
+            // element.classList.add("flash");
+            // setTimeout(function () {
+            //     element.classList.remove("flash");
+            // }, 2);
+        }
+    </script>
+
+</html>
