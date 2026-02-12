@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
     /* font-size: 18px; */
     font-size: 13.5pt;
     padding: 10px;
@@ -31,10 +31,14 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p {
+    font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
+}
+
 .section-header {
     margin-top: 0px;
     margin-bottom: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 
     /* font-size: 40px; */
     font-size: 30pt;
@@ -80,7 +84,7 @@ a:active {
     display: flex;
     justify-content: space-between;
     align-items: baseline; /* keeps h2 and h3 aligned nicely */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 .title {
     /*background-color: orange;*/
@@ -96,7 +100,7 @@ a:active {
     color: rgb(50, 50, 50);
     /* font-size: 18px; */
     font-size: 15pt;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 .date {
     /*background-color: lightgreen;*/
